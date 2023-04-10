@@ -5,14 +5,14 @@ class SortingMethod:
         self.whitelist  = whitelist
         self.blacklist  = blacklist
     
-    def sort(self, file_path):
+    def sort(self, root, file_path):
         '''Sorts the file using the SortingMethod's method of sorting. Returns True if the file was sorted, False otherwise.'''
         if self.whitelist != []:
             pass
         elif self.blacklist != []:
             pass
         else:
-            self.method(file_path)
+            self.method(root, file_path)
             return True
         
         return False
