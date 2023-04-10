@@ -1,1 +1,1 @@
-# AutoSortFolderCLI
+# AutoSortFolder - CLI
