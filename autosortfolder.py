@@ -51,10 +51,19 @@ class AutoSortFolder:
                     self._sorter.method = SORTING_METHODS[2]
                     break
                 case "4":
-                    self._menu_custom_sorting()
                     self._sorter.method = SORTING_METHODS[3]
                     break
                 case "5":
+                    self._sorter.method = SORTING_METHODS[4]
+                    break
+                case "6":
+                    self._sorter.method = SORTING_METHODS[5]
+                    break
+                case "7":
+                    self._menu_custom_sorting()
+                    self._sorter.method = SORTING_METHODS[6]
+                    break
+                case "8":
                     break
                 case _:
                     print("ERROR: Please choose one of the options above.")

@@ -177,5 +177,8 @@ SORTING_METHODS = [
     SortingMethod(name="Alphabetical", method=sort_alphabetical), 
     SortingMethod(name="Extension", method=sort_extension), 
     SortingMethod(name="Size", method=sort_size), 
+    SortingMethod(name="Date Created", method=sort_date_created),
+    SortingMethod(name="Date Modified", method=sort_date_modified),
+    SortingMethod(name="Date Accessed", method=sort_date_accessed),
     SortingMethod(name="Custom", method=sort_custom)
     ]
